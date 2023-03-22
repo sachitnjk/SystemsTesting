@@ -13,13 +13,17 @@ public class ItemInteraction : MonoBehaviour
 	[SerializeField] PlayerInput _input;
 	InputAction interactAction;
 
-	[SerializeField] TextMeshProUGUI txt_HoveredItem;
-
-
+	TextMeshProUGUI txt_HoveredItem;
+	private void Awake()
+	{
+		GameObject canvas = GameObject.Find("Canvas");
+		txt_HoveredItem = canvas.GetComponentInChildren<TextMeshProUGUI>();
+	}
 	private void Start()
 	{
 		inventoryHandler = GetComponent<PlayerInventoryHandler>();
-		interactAction = _input.actions["Interect"];
+		_input = GetComponent<PlayerInput>();
+		interactAction = _input.actions["Interact"];
 	}
 
 	private void Update()

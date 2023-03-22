@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 6717438529259436758}
   - component: {fileID: 5857412124214170296}
   - component: {fileID: 1324374407907808849}
-  m_Layer: 0
+  - component: {fileID: 1035978710158545469}
+  m_Layer: 7
   m_Name: book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,6 +98,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1035978710158545469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997861364067273080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6475745870b4494db3e3b8c1ddee42b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 11400000, guid: 034d5950f1406234b8ea5fc017746766, type: 2}
+  amount: 0
 --- !u!1 &6626943739456531696
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,7 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 325079801496442046}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Notebook
   m_TagString: Untagged
   m_Icon: {fileID: 0}

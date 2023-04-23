@@ -6,6 +6,8 @@ public enum ItemType
 {
 	Note,
 	Samples,
+	Ammo,
+	HealthPack,
 	Default
 }
 public abstract class ItemObject : ScriptableObject

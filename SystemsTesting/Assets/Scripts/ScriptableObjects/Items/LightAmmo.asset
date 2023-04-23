@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d451fa6f4d5a6f249a8d0ce9fb6d0c85, type: 3}
-  m_Name: Scrap
+  m_Script: {fileID: 11500000, guid: ad5088ee395b65648b259ea76a1a5bf0, type: 3}
+  m_Name: LightAmmo
   m_EditorClassIdentifier: 
   prefab: {fileID: 0}
   type: 2
-  description: Junk picked up from the ground.
+  description: Projectiles that can be loading into handheld devices and launched
+    towards a target.
+  ammoInBox: 20

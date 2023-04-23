@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae373bc60aa76a34e9a3165287fa8dba, type: 3}
   m_Name: Note 1
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 3507771464135634652, guid: 394790ec5241891439cbb5e72ec7fcc0, type: 3}
   type: 0
   description: Contains knowledge from the past.

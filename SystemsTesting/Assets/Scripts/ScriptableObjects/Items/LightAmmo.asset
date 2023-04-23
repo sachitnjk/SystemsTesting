@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5088ee395b65648b259ea76a1a5bf0, type: 3}
   m_Name: LightAmmo
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 5918769962154596045, guid: 1b2abdd6ab54e164585f96e03ac46852, type: 3}
   type: 2
   description: Projectiles that can be loading into handheld devices and launched
     towards a target.

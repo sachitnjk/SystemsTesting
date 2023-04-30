@@ -20,6 +20,16 @@ namespace StarterAssets
 		public bool cursorLocked = true;
 		public bool cursorInputForLook = true;
 
+		public PlayerInput _playerInput;
+		[HideInInspector]public InputAction _InteractInput;
+
+		private void Start()
+		{
+			_playerInput = GetComponent<PlayerInput>();
+			_InteractInput = _playerInput.actions["Interact"];
+		}
+
+
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 		public void OnMove(InputValue value)
 		{

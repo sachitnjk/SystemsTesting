@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: ChainsOfHarrow
   m_EditorClassIdentifier: 
   buffItemName: Chains of harrow
+  enhancementItems: 2
   buffItemIcon: {fileID: 4569567536826661395, guid: 05f99ecfff9c1a9499e2e047fb4e003e,
     type: 3}
-  buffItemPrefab: {fileID: 0}
-  damageIncrease: 0
-  walkSpeedIncrease: 0
-  sprintSpeedIncrease: 0
-  abilityCooldownReduction: 2
-  buffItemDescription: 
+  buffItemPrefab: {fileID: 3751744359138469299, guid: d661140227cbfd8408f60c45bd7318e3,
+    type: 3}
+  buffItemDescription: Chains of Harrow yoinked from Wurfrem.

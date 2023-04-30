@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: GearOfMetal
   m_EditorClassIdentifier: 
   buffItemName: Gear of metal
+  enhancementItems: 1
   buffItemIcon: {fileID: 6859090647628048173, guid: 46d4c306325e2114db60cc57d83fbdba,
     type: 3}
-  buffItemPrefab: {fileID: 0}
-  damageIncrease: 0
-  walkSpeedIncrease: 0
-  sprintSpeedIncrease: 2
-  abilityCooldownReduction: 0
-  buffItemDescription: 
+  buffItemPrefab: {fileID: 6454475387030851802, guid: a213ebb6b66aa1b49a21496fa571ff67,
+    type: 3}
+  buffItemDescription: Gear of metal from metal gear solid.

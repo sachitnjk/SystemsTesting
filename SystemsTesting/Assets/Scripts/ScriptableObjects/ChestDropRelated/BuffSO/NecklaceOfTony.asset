@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3df68ec01363d5e4fbcc3212d50b1cf3, type: 3}
-  m_Name: SwordOfSlayer
+  m_Name: NecklaceOfTony
   m_EditorClassIdentifier: 
-  buffItemName: Sword of Mythrix
-  enhancementItems: 3
-  buffItemIcon: {fileID: 135613786731426014, guid: 801bfb7baa049f745a91b668d365102d,
+  buffItemName: Necklace of Tony
+  enhancementItems: 0
+  buffItemIcon: {fileID: 7967899306043406891, guid: fa04094f57d70bc44a142b09f14a0114,
     type: 3}
-  buffItemPrefab: {fileID: 8285646947545343791, guid: 2ea12af5805680e41a3870f38e829178,
-    type: 3}
-  buffItemDescription: Mythrix had a sword apparently so here it is.
+  buffItemPrefab: {fileID: 0}
+  buffItemDescription: 

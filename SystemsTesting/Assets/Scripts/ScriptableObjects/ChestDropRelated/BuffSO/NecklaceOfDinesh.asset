@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: NecklaceOfDinesh
   m_EditorClassIdentifier: 
   buffItemName: Necklace of Dinesh
+  enhancementItems: 0
   buffItemIcon: {fileID: 7967899306043406891, guid: fa04094f57d70bc44a142b09f14a0114,
     type: 3}
-  buffItemPrefab: {fileID: 0}
-  damageIncrease: 0
-  walkSpeedIncrease: 1
-  sprintSpeedIncrease: 0
-  abilityCooldownReduction: 0
-  buffItemDescription: 
+  buffItemPrefab: {fileID: 8467917787228100499, guid: ab94513db6ac7214e98096c58f4e5f98,
+    type: 3}
+  buffItemDescription: It's the necklace of Dinesh, dont question it.

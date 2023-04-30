@@ -7,6 +7,7 @@ public class ReferenceManager : MonoBehaviour
 	public static ReferenceManager instance;
 
 	[SerializeField] public Transform screenCenterPoint;
+	[SerializeField] public BuffItemPicker buffitemPicker;
 
 	private void Awake()
 	{

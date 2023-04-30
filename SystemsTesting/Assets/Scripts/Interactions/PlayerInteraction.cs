@@ -10,8 +10,11 @@ public class PlayerInteraction : MonoBehaviour
 
 	[SerializeField] StarterAssetsInputs _input;
 
+	BuffItemPicker _picker;
+
 	private void Start()
 	{
+		_picker = ReferenceManager.instance.buffitemPicker;
 	}
 	private void Update()
 	{
@@ -29,7 +32,7 @@ public class PlayerInteraction : MonoBehaviour
 		{
 			if(hitInfo.collider.CompareTag("Interactable"))
 			{
-				Debug.Log("Interactable object");
+				_picker.PickRandomBuff(_picker.buffPickerCount);
 			}
 		}
 	}

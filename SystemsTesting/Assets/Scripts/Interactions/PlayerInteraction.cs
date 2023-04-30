@@ -12,6 +12,8 @@ public class PlayerInteraction : MonoBehaviour
 
 	BuffItemPicker _picker;
 
+	private float distanceToInteractable;
+
 	private void Start()
 	{
 		_picker = ReferenceManager.instance.buffitemPicker;
@@ -32,7 +34,11 @@ public class PlayerInteraction : MonoBehaviour
 		{
 			if(hitInfo.collider.CompareTag("Interactable"))
 			{
-				_picker.PickRandomBuff(_picker.buffPickerCount);
+				distanceToInteractable = Vector3.Distance(transform.position, hitInfo.transform.position);
+				if(distanceToInteractable < interactionDistance) 
+				{
+					_picker.PickRandomBuff(_picker.buffPickerCount);
+				}
 			}
 		}
 	}

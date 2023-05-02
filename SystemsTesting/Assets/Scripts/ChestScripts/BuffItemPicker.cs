@@ -8,6 +8,11 @@ public class BuffItemPicker : MonoBehaviour
 
 	[SerializeField] public int buffPickerCount;
 
+	BuffitemSpawner buffItemSpawner;
+	private void Start()
+	{
+		buffItemSpawner = GetComponent<BuffitemSpawner>();
+	}
 	public void PickRandomBuff(int count)
 	{
 		List<BuffItem> pickeditems = new List<BuffItem>();
